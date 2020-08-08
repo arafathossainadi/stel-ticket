@@ -1,0 +1,308 @@
+/*=====================================
+=            universal css            =
+=====================================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Raleway:wght@300;400;700&display=swap');
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #f5f8ff;
+}
+
+.placeholder-card{
+	background-color: #fff;
+	padding: 15px;
+	border-radius: 10px;
+	box-shadow: 0 3px 3px 0px rgb(0 0 0 / 0.12);
+}
+
+.form-control {
+    color: #253847;
+    background-color: #f5f8ff;
+    border: unset;
+}
+
+.form-control:focus {
+	color: #253847;
+	background-color: #f5f8ff;
+	border-color: #253847;
+	box-shadow: 0 0 0 0.2rem #2538474d;
+}
+
+.btn-primary{
+	color: #fff;
+	background-color: #253847;
+	border-color: #253847;
+}
+
+.btn-primary:hover {
+    color: #253847;
+    background-color: transparent;
+    border-color: #253847;
+}
+
+.btn-primary:focus, .btn-primary.focus, .btn-primary:not(:disabled):not(.disabled):active {
+    color: #253847;
+    background-color: #25384724;
+    border-color: #253847;
+    box-shadow: unset;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus {
+   box-shadow: 0 0 0 0.2rem #2538474d;
+}
+
+/*==================================
+=            header css            =
+==================================*/
+.logo{
+	height: 50px;
+}
+
+.bg-nav{
+	background-color: #ECF7FF;
+	-webkit-box-shadow:0 0px 10px 0px rgb(0 0 0 / 0.5);
+	-moz-box-shadow:0 0px 10px 0px rgb(0 0 0 / 0.5);
+	box-shadow:0 0px 10px 0px rgb(0 0 0 / 0.5);
+}
+
+.user-avatar{
+	width: 40px;
+	height: 40px;
+	background-color: transparent;
+	display: inline-block;
+	vertical-align: 2px;
+	border-radius: 100px;
+}
+
+.user-avatar img{
+	border-radius: 100px;
+}
+
+.user-full-name{
+	font-size: 18px;
+	margin-bottom: 0;
+	margin-left: 10px;
+	color: #253847;
+	font-weight: 500;
+}
+
+.dropdown-menu {
+    margin: -5px 0 0;
+    color: #212529;
+    border-radius: 10px;
+}
+
+.dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #253847;
+}
+
+.notification{
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	border-radius: 100px;
+	line-height: 40px;
+	text-align: center;
+	border: 2px solid #253847;
+	color: #253847;
+	position: relative;
+	margin-right: 10px;
+}
+
+.noti-arrow:after{
+	display: none;
+}
+
+.noti-dot{
+	width: 20px;
+	height: 20px;
+	background-color: #44d5bb;
+	position: absolute;
+	top: -5px;
+	right: -5px;
+	border-radius: 20px;
+	font-size: 15px;
+	line-height: 20px;
+}
+
+/*===========================================
+=            my ticket title css            =
+===========================================*/
+
+.my-ticket-title{
+	margin-top: 30px;
+	margin-bottom: 15px;
+	padding: 15px 30px;
+}
+
+.my-ticket-title h1{
+	color: #253847;
+	font-family: "Raleway";
+	font-weight: 700;
+	margin-bottom: 0;
+	margin-top: 5px;
+}
+
+.my-ticket-title span{
+	color: #707070;
+	font-family: "Lato";
+}
+
+/*======================================================
+=            search and open new ticket css            =
+======================================================*/
+
+.search-open-ticket input{
+	position: relative;
+	width: 162.28px;
+}
+
+.search-icon{
+	position: absolute;
+	top: 13px;
+	right: 30px;
+	color: #BABFC7;
+	font-size: 14px;
+}
+
+.search-open-ticket button{
+	margin-top: 10px;
+}
+
+/*=============================================
+=            individual ticket css            =
+=============================================*/
+
+.individual-ticket{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.ticket-id{
+	color: #fc8a1a;
+	font-family: "Lato";
+	font-weight: 700;
+	display: inline-block;
+}
+
+.ticket-status:disabled{
+    padding: 2px 10px;
+    color: #253847;
+    background-color: #dddddd;
+    font-weight: bold;
+    border: none;
+}
+
+.ticket-subject{
+	color: #253847;
+	font-weight: 700;
+	font-family: "Raleway";
+	margin-bottom: 0;
+}
+
+.ticket-submission-date{
+	font-family: "Lato";
+	color: #253847;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.individual-ticket hr{
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+.last-update-date{
+	margin-bottom: 0;
+	display: inline-block;
+	line-height: 30px;
+	font-family: "Lato";
+	color: #616161;
+}
+
+.view-ticket-btn{
+	padding: 3px 15px;
+}
+
+
+/*==================================
+=            footer css            =
+==================================*/
+.bg-footer{
+	background-color: #ECF7FF;
+	-webkit-box-shadow: 0 0px 10px 0px rgb(0 0 0 / 0.15);
+	-moz-box-shadow: 0 0px 10px 0px rgb(0 0 0 / 0.15);
+	box-shadow: 0 0px 10px 0px rgb(0 0 0 / 0.15);
+}
+
+.footer{
+	text-align: center;
+	margin-top: 60px;
+}
+
+.footer p{
+	margin-bottom: 0;
+	font-family: "Raleway";
+	padding: 15px 0;
+}
+
+
+/*============================================
+=            new ticket modal css            =
+============================================*/
+
+.ticket-type{
+	color: #253847;
+    background-color: #f5f8ff;
+    border: unset;
+}
+
+.ticket-type:focus{
+	box-shadow: 0 0 0 0.2rem #2538474d;
+}
+
+/**
+ *
+ * responsive css
+ *
+ */
+
+
+/*----------  header  ----------*/
+
+@media only screen and (max-width: 768px) {
+  .user-full-name{
+  	display: none;
+  }
+}
+
+
+
+@media only screen and (max-width: 576px){
+	.my-ticket-title{
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.my-ticket-title h1 {
+	    font-size: 30px;
+	}
+
+	.search-open-ticket input {
+	    width: 145.25px;
+	}
+
+	.search-open-ticket button{
+		font-size: 14px;
+	}
+
+
+}
