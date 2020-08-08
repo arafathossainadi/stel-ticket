@@ -273,11 +273,25 @@ body{
 	box-shadow: 0 0 0 0.2rem #2538474d;
 }
 
+.custom-file-label {
+    color: #253847;
+    background-color: #f5f8ff;
+    border: 1px solid #ced4da;
+}
+
+.custom-file-input:focus ~ .custom-file-label {
+    border-color: #253847;
+    box-shadow: 0 0 0 0.2rem #2538474d;
+}
+
+
 /*=====  End of home page  ======*/
 
 /*========================================
 =            view ticket page            =
 ========================================*/
+
+/*----------  view ticket & ticket information  ----------*/
 
 .reply-btn{
 	width: 150px;
@@ -298,6 +312,19 @@ body{
 
 .reply-btn i{
 	margin-top: 5px;
+}
+
+.vt-divider{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+/*----------  user replies  ----------*/
+
+.user-reply-header{
+	background-color: #ddf0ff;
+	margin: -15px;
+	padding: 7px 30px;
 }
 
 /*=====  End of view ticket page  ======*/
