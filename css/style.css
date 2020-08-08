@@ -316,8 +316,21 @@ body{
 
 .vt-divider{
 	margin-top: 5px;
-	margin-bottom: 5px;
+	margin-bottom: 15px;
 }
+
+.ticket-info{
+	color:#6c6c6c;
+	font-size: 18px;
+	font-family: "Lato";
+}
+
+.ticket-info p{
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+
 
 /*----------  user replies  ----------*/
 
@@ -325,6 +338,21 @@ body{
 	background-color: #ddf0ff;
 	margin: -15px;
 	padding: 7px 30px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+.user-reply-header img{
+	width: 48px;
+	border-radius: 50px;
+	display: inline-block;
+}
+
+.user-reply-header p{
+	display: inline-block;
+	font-family: "Lato";
+	margin-bottom: 0;
+	color:#253847;
 }
 
 /*=====  End of view ticket page  ======*/
