@@ -57,6 +57,10 @@ body{
    box-shadow: 0 0 0 0.2rem #2538474d;
 }
 
+/*=================================
+=            home page            =
+=================================*/
+
 /*==================================
 =            header css            =
 ==================================*/
@@ -269,14 +273,43 @@ body{
 	box-shadow: 0 0 0 0.2rem #2538474d;
 }
 
+/*=====  End of home page  ======*/
+
+/*========================================
+=            view ticket page            =
+========================================*/
+
+.reply-btn{
+	width: 150px;
+	font-family: "Raleway";
+}
+
+.reply-btn span{
+	color:#fff !important;
+}
+
+.reply-btn:hover span{
+	color: #253847 !important;
+}
+
+.reply-btn:focus span{
+	color: #253847 !important;
+}
+
+.reply-btn i{
+	margin-top: 5px;
+}
+
+/*=====  End of view ticket page  ======*/
+
+
+
 /**
  *
  * responsive css
  *
  */
 
-
-/*----------  header  ----------*/
 
 @media only screen and (max-width: 768px) {
   .user-full-name{
