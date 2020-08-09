@@ -236,6 +236,15 @@ body{
 	padding: 3px 15px;
 }
 
+.individual-ticket a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.individual-ticket button:hover>a{
+	color:#253847;
+}
+
 
 /*==================================
 =            footer css            =
@@ -336,10 +345,20 @@ body{
 
 .user-reply-header{
 	background-color: #ddf0ff;
-	margin: -15px;
-	padding: 7px 30px;
+	margin: -15px -15px 0 -15px;
+	padding: 15px 30px;
 	border-top-right-radius: 10px;
 	border-top-left-radius: 10px;
+}
+
+.user-reply-header .avatar{
+	width: 48px;
+	height: 48px;
+	border-radius: 48px;
+	background-image: url(../images/user-circle-solid.svg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .user-reply-header img{
@@ -353,6 +372,20 @@ body{
 	font-family: "Lato";
 	margin-bottom: 0;
 	color:#253847;
+}
+
+.reply-date{
+	width: 100%;
+	text-align: right;
+	line-height: 48px;
+}
+
+.user-reply-body{
+	padding-top: 10px;
+}
+
+.admin-reply-header{
+	background-color: #eeeeee;
 }
 
 /*=====  End of view ticket page  ======*/
